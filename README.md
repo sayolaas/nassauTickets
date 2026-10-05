@@ -20,10 +20,10 @@ O objetivo do projeto é consolidar conhecimentos práticos em desenvolvimento w
 | :--- | :--- | :--- |
 | Fagner Célio Pereira Barreto | 01465577 | **Desenvolvedor** |
 | Guilherme José Bezerra Coutinho | 01909302 | **Testador** |
-| Heron Bezerra de Melo Santos | 01900978 | **Desenvolvedor** |
+| Heron Bezerra de Melo Santos | 01900978 | **Documentador** |
 | Pedro Sayão Valença e Souza | 01897758 | **Scrum Master / Documentador** |
 | Polyana Fernanda da Silva Alves | 01809854 | **Testador** |
-| Yohanna Vitória Carneiro dos Santos | 01910666 | **Documentador** |
+| Yohanna Vitória Carneiro dos Santos | 01910666 | **Desenvolvedor** |
 
 
 ---
@@ -34,12 +34,13 @@ O objetivo do projeto é consolidar conhecimentos práticos em desenvolvimento w
 - **React 19** 
 - **JavaScript (ES6+)** / **JSX**
 - **HTML5 & CSS3** 
-- **Hooks do React: useState, useEffect**
+- **Vite**
 - **Comunicação: API Fetch / Axios (Consumo de APIs REST JSON)**
 
 ### Backend & Banco de Dados
 - **Node.js 22 LTS com Express** 
 - **MySQL 8.0**
+- **Java com Spring Boot**
 
 ### Ferramentas & Versionamento
 - **Git & GitHub** 
@@ -53,7 +54,7 @@ O projeto segue estritamente a estrutura obrigatória de diretórios exigida no 
 
 
 nassauTickets/
-├── backend/          # Código-fonte da API REST e regras de servidor
+├── backend/          # API REST em JAVA / Spring Boot e regras de negócio
 ├── docs/             # Documentação técnica e artefatos
 │   ├── branding/     # Identidade visual, logos e paleta de cores
 │   ├── mer/          # Modelo Entidade-Relacionamento do MySQL
@@ -61,7 +62,7 @@ nassauTickets/
 │   ├── models/       # Modelos do sistema
 │   │   └── uml/      # Diagramas UML e Máquina de Estados da Senha
 │   └── requirements/ # Requisitos (RF, RNF, Regras de Negócio, LGPD, Acessibilidade)
-├── frontend/         # Aplicação React executável
+├── frontend/         # Aplicação React executável (Vite)
 ├── .gitignore        # Padrão Node.js (ignora node_modules, .env, etc.)
 ├── LICENSE           # Licença MIT
 └── README.md         # Documentação principal
